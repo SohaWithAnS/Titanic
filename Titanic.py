@@ -86,7 +86,6 @@ finalDF = pd.DataFrame({
 finalDF.to_csv('E:/Kaggle/gender_submission.csv', sep=',') # sep -> to specify delimiter
 
 
-# In[ ]:
 
 
 
