@@ -81,7 +81,7 @@ finalDF = pd.DataFrame({
 
 # to store this in a .csv file
 # If it is run multiple times with same .csv file name, then gives 'PermissionError' and doesn't update that file.
-# So, only uncomment it at the end
+# So, comment and then only uncomment it at the end
 
 finalDF.to_csv('E:/Kaggle/gender_submission.csv', sep=',') # sep -> to specify delimiter
 
